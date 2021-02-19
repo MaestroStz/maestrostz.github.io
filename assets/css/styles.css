@@ -28,9 +28,13 @@ a:hover {
 #activities h2 {
     color: black;
 }
+#contact-info{
+    padding-top:15px;
+}
 
 #contact-info h2 {
     color: black;
+  
 }
 
 div h2, section h2 {
@@ -47,15 +51,32 @@ div h2, section h2 {
 
    .nav-link {   
     font-size:25px;
-    color: white !important;
+    color: #60a5a5 !important;
 }
 .navbar{
-    background-color:black;
+    background-color:#A49F9D;
+    -webkit-box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75)
 }
 
 #navbar-brand
 .about {
     position: relative;
+}
+
+.call-now{
+    text-align: end;;
+}
+
+.call-now a{
+    font-size:25px;
+    color:white;
+}
+
+.call-now a:hover{
+    text-decoration: none;
+    color:grey;
 }
 
 .activities-header-img {
@@ -75,6 +96,10 @@ div h2, section h2 {
 
 #banner-text {
     font-style: italic;
+}
+
+.main-c{
+    color:#60a5a5;
 }
 
 #banner-text a {
@@ -148,12 +173,26 @@ ul li {
 
 #info {
     text-align: center;
-    padding-bottom: 50px;
 }
 
 .contact-info{
     color:black;
 }
+.face-img {
+    max-width:100%;
+max-height:50%;
+width:  25%;
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.maestro p{
+    text-align: center;
+    font-weight:500;
+}
+
 
 @media (min-width: 992px) {
 
@@ -167,6 +206,10 @@ ul li {
 
     ul li {
         font-size: 40px;
+    }
+
+    .nav-link {   
+        font-size:45px;
     }
 
     section h2 {
@@ -193,5 +236,10 @@ ul li {
     #name {
         font-size: 40px;
     }
+    .call-now a{
+        font-size:40px;
+    }
+    .face-img {
+    width:  50%;
+    }
 }
-
