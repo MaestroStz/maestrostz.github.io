@@ -1,18 +1,19 @@
-@font-face { 
-    font-family: 'Merriweather'; 
+@font-face {
+    font-family: 'Merriweather';
     src: url('/assets/fonts/Merriweather-Italic.ttf');
- }
- 
- @font-face { 
-    font-family: 'RussoOne'; 
+}
+
+@font-face {
+    font-family: 'RussoOne';
     src: url('/assets/fonts/RussoOne-Regular.ttf');
- } 
- 
- html {
+}
+
+html {
     scroll-behavior: smooth;
     width: 100%;
-    height: 100%;
+    height: 100%; 
 }
+
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
@@ -28,14 +29,14 @@ a:hover {
 #activities h2 {
     color: black;
 }
-#contact-info{
-    padding-top:15px;
+
+#contact-info {
+    padding-top: 15px;
 }
 
-#contact-info h2 {
-    color: black;
-  
-}
+    #contact-info h2 {
+        color: black;
+    }
 
 div h2, section h2 {
     text-align: center;
@@ -43,21 +44,22 @@ div h2, section h2 {
 }
 
 #name {
-    font-size: 25px;
-    color: white;
-    padding-right: 5%;
-    margin: auto;
+    color: white;  
+    text-align:right;   
+    width:100%;
+    display:block;
 }
 
-   .nav-link {   
-    font-size:25px;
+.nav-link {
+    font-size: 25px;
     color: #60a5a5 !important;
 }
-.navbar{
-    background-color:#A49F9D;
+
+.navbar {
+    background-color: #6EB1DC;
     -webkit-box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75)
+    -moz-box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75)
 }
 
 #navbar-brand
@@ -65,41 +67,38 @@ box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75)
     position: relative;
 }
 
-.call-now{
-    text-align: end;;
-}
+ .call-now{}
 
-.call-now a{
-    font-size:25px;
-    color:white;
-}
+    .call-now a { 
+        color: white;
+    }
 
-.call-now a:hover{
-    text-decoration: none;
-    color:grey;
-}
+        .call-now a:hover {
+            text-decoration: none;
+            color: wheat;
+            transform: scale(1.2)
+        }
 
 .activities-header-img {
     width: 30px;
 }
 
-#banner-text {   
-    font-size: 3.9vw;    
-     text-align: center;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     color: white;
-      
+#banner-text {
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
 #banner-text {
     font-style: italic;
 }
 
-.main-c{
-    color:#60a5a5;
+.main-c {
+    color: #60a5a5;
 }
 
 #banner-text a {
@@ -110,38 +109,41 @@ box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.75)
     color: black;
     text-align: center;
     cursor: pointer;
-    font-size:2.5vw;
-    background-color:grey;
-  }
-  
-  #banner-text a:hover {
-    background-color: #555;
-    color: white;
-    text-decoration: none;
-  }
-
-#banner-image {
-    width: 100%;
+    font-size: 2.5vw;
+    background-color: grey;
 }
 
-.padding-57 {
-    padding-top: 57px;
+    #banner-text a:hover {
+        background-color: #555;
+        color: white;
+        text-decoration: none;
+    }
+
+#banner-image {
+    width: 100%; 
+    height: 800px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.padding-2e {
+    padding-top: 2em;
 }
 
 #activities {
-    background-color: whitesmoke;
+    background-color: #F6F5FE;
 }
 
     #activities #more-info {
         text-align: center;
         width: 100%;
         font-style: oblique;
-        font-weight: 1000;
-        color:blue;
+        font-size: 1.2em;
+        color: #4288CE;
     }
 
 #contact-info {
-    background-color: grey;
+    background-color: #6EB1DC;
 }
 
     #contact-info div {
@@ -175,22 +177,27 @@ ul li {
     text-align: center;
 }
 
-.contact-info{
-    color:black;
+.contact-info {
+    color: black;
 }
+
 .face-img {
-    max-width:100%;
-max-height:50%;
-width:  25%;
-
-display: block;
-margin-left: auto;
-margin-right: auto;
+    max-width: 100%;
+    max-height: 50%;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.maestro p{
+.contact-info-desc {
+    align-content: center;
+    align-items: center;
+}
+
+.maestro p {
     text-align: center;
-    font-weight:500;
+    font-weight: 500;
 }
 
 
@@ -208,38 +215,40 @@ margin-right: auto;
         font-size: 40px;
     }
 
-    .nav-link {   
-        font-size:45px;
+    .nav-link {
+        font-size: 45px;
     }
 
     section h2 {
         font-size: 60px;
     }
+
     section p {
-        font-size:33px;
+        font-size: 33px;
     }
 
-    #activities-description{
-        font-size:40px;
-    }
-    .section-header{
-        font-size:55px;
+    #activities-description {
+        font-size: 40px;
     }
 
-    #info{
-        font-size:37px;
+    .section-header {
+        font-size: 55px;
+    }
+
+    #info {
+        font-size: 37px;
     }
 
     .activities-header-img {
         width: 60px;
     }
-    #name {
-        font-size: 40px;
-    }
-    .call-now a{
-        font-size:40px;
-    }
+
     .face-img {
-    width:  50%;
+        width: 50%;
     }
+
+    
+}
+.header-e {
+    font-size: 1.5em;
 }
